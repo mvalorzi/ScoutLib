@@ -17,7 +17,6 @@
 		4BA7F107270410C100388E8F /* ImageAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7F102270410C100388E8F /* ImageAsync.swift */; };
 		4BA7F108270410C100388E8F /* Libro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7F104270410C100388E8F /* Libro.swift */; };
 		4BA7F109270410C100388E8F /* Tema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7F105270410C100388E8F /* Tema.swift */; };
-		4BA7F1142704113300388E8F /* IpadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7F10B2704113200388E8F /* IpadView.swift */; };
 		4BA7F1152704113300388E8F /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7F10C2704113200388E8F /* HelpView.swift */; };
 		4BA7F1162704113300388E8F /* LibrosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7F10D2704113200388E8F /* LibrosView.swift */; };
 		4BA7F1172704113300388E8F /* Mensajes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7F10E2704113200388E8F /* Mensajes.swift */; };
@@ -42,7 +41,6 @@
 		4BA7F102270410C100388E8F /* ImageAsync.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageAsync.swift; sourceTree = "<group>"; };
 		4BA7F104270410C100388E8F /* Libro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Libro.swift; sourceTree = "<group>"; };
 		4BA7F105270410C100388E8F /* Tema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tema.swift; sourceTree = "<group>"; };
-		4BA7F10B2704113200388E8F /* IpadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IpadView.swift; sourceTree = "<group>"; };
 		4BA7F10C2704113200388E8F /* HelpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		4BA7F10D2704113200388E8F /* LibrosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibrosView.swift; sourceTree = "<group>"; };
 		4BA7F10E2704113200388E8F /* Mensajes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mensajes.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 				4BA7F1112704113200388E8F /* AboutView.swift */,
 				4BA7F1132704113200388E8F /* FindView.swift */,
 				4BA7F10C2704113200388E8F /* HelpView.swift */,
-				4BA7F10B2704113200388E8F /* IpadView.swift */,
 				4BA7F10D2704113200388E8F /* LibrosView.swift */,
 				4BA7F10E2704113200388E8F /* Mensajes.swift */,
 				4BA7F10F2704113200388E8F /* MenuView.swift */,
@@ -208,7 +205,6 @@
 				4BA7F1182704113300388E8F /* MenuView.swift in Sources */,
 				4BA7F1192704113300388E8F /* PresentationView.swift in Sources */,
 				4BA7F0EC2704109000388E8F /* AppDelegate.swift in Sources */,
-				4BA7F1142704113300388E8F /* IpadView.swift in Sources */,
 				4BA7F11C2704113300388E8F /* FindView.swift in Sources */,
 				4BA7F0EE2704109000388E8F /* SceneDelegate.swift in Sources */,
 				4BA7F1172704113300388E8F /* Mensajes.swift in Sources */,
