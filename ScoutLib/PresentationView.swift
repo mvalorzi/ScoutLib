@@ -1,0 +1,39 @@
+//
+//  PresentationView.swift
+//  ScoutLib
+//
+//  Created by Martín Valorzi on 29/09/2021.
+//
+
+import SwiftUI
+
+struct PresentationView: View {
+    var mensaje: Mensajes;
+    var item: Libro;
+    
+    var body: some View {
+        VStack{
+            Text(item.title)
+                .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                .foregroundColor(.orange)
+          
+        Text(item.Contenido)
+            Button {
+                        if let url = URL(string: item.url) {
+                            UIApplication.shared.open(url)}
+            }
+            label: {
+                ImageAsync(item.Foto)
+                    .padding(10)
+            }
+            Button(mensaje.get(Frase.VIEW)){
+                if let url = URL(string: item.url) {
+                    UIApplication.shared.open(url)}
+            }
+            .font(.title)
+          }
+        }
+        
+    }
+
+
