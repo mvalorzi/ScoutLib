@@ -24,6 +24,7 @@
       "size" : "29x29"
     },
     {
+      "filename" : "carpa80-1.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
@@ -34,6 +35,7 @@
       "size" : "40x40"
     },
     {
+      "filename" : "carpa120.png",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
@@ -74,6 +76,7 @@
       "size" : "40x40"
     },
     {
+      "filename" : "carpa80.png",
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
@@ -94,6 +97,7 @@
       "size" : "83.5x83.5"
     },
     {
+      "filename" : "carpa1024.png",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"
