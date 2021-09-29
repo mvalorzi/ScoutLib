@@ -22,17 +22,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Create the SwiftUI view that provides the window contents.
 
         // Use a UIHostingController as window root view controller.
-      //  if let windowScene = scene as? UIWindowScene {
-     //       let window = UIWindow(windowScene: windowScene)
-    //        window.rootViewController = UIHostingController(rootView: contentView)
+
      
         if let windowScene = scene as? UIWindowScene {
                     let window = UIWindow(windowScene: windowScene)
-                  
-                        let contentView = MenuView()
-                        window.rootViewController = UIHostingController(rootView: contentView)
-                    
-        
+            if(deviceIdiom == .pad){
+                          let contentView = IpadView(mensaje: Mensajes())
+                          window.rootViewController = UIHostingController(rootView: contentView)
+                      }else{
+                          let contentView = MenuView()
+                          window.rootViewController = UIHostingController(rootView: contentView)
+                      }
         self.window = window
             window.makeKeyAndVisible()
         }

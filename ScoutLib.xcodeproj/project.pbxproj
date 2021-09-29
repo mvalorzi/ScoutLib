@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B00813E2704C2B000A42EFD /* IpadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B00813D2704C2B000A42EFD /* IpadView.swift */; };
 		4BA7F0EC2704109000388E8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7F0EB2704109000388E8F /* AppDelegate.swift */; };
 		4BA7F0EE2704109000388E8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7F0ED2704109000388E8F /* SceneDelegate.swift */; };
 		4BA7F0F02704109000388E8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BA7F0EF2704109000388E8F /* ContentView.swift */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B00813D2704C2B000A42EFD /* IpadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IpadView.swift; sourceTree = "<group>"; };
 		4BA7F0E82704109000388E8F /* ScoutLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScoutLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BA7F0EB2704109000388E8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BA7F0ED2704109000388E8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				4BA7F10C2704113200388E8F /* HelpView.swift */,
 				4BA7F10D2704113200388E8F /* LibrosView.swift */,
 				4BA7F10E2704113200388E8F /* Mensajes.swift */,
+				4B00813D2704C2B000A42EFD /* IpadView.swift */,
 				4BA7F10F2704113200388E8F /* MenuView.swift */,
 				4BA7F1102704113200388E8F /* PresentationView.swift */,
 				4BA7F1122704113200388E8F /* TemasView.swift */,
@@ -203,6 +206,7 @@
 			files = (
 				4BA7F108270410C100388E8F /* Libro.swift in Sources */,
 				4BA7F1182704113300388E8F /* MenuView.swift in Sources */,
+				4B00813E2704C2B000A42EFD /* IpadView.swift in Sources */,
 				4BA7F1192704113300388E8F /* PresentationView.swift in Sources */,
 				4BA7F0EC2704109000388E8F /* AppDelegate.swift in Sources */,
 				4BA7F11C2704113300388E8F /* FindView.swift in Sources */,
