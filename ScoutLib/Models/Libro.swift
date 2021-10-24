@@ -17,6 +17,13 @@ class Libro: Decodable {
     var Tema: String
     var Idioma: String
     init(id: String, title: String, image: String, url: String, Contenido: String, Foto: String, Tema: String, Idioma: String) {
-        self.id = id; self.title = title; self.image = image; self.url = url; self.Contenido = Contenido; self.Foto = Foto; self.Tema = Tema; self.Idioma = Idioma;
+        self.id = id;
+        self.title = title;
+        self.image = image;
+        self.url = url;
+        self.Contenido = Contenido;
+        self.Foto = Foto;
+        self.Tema = Tema;
+        self.Idioma = Idioma;
     }
 }

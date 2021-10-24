@@ -21,10 +21,16 @@ struct PresentationView: View {
                         if let url = URL(string: item.url) {
                             UIApplication.shared.open(url)}
             }
+          
             label: {
                 ImageAsync(item.Foto)
                     .padding(10)
             }
+            HStack{
+                Text("_LANGUAGE".localized + item.Idioma)
+                                  if(item.Idioma ==  "es") { Image("es4") }
+                                  else if(item.Idioma ==  "en") { Image("en4") }
+              }
             Button("_VIEW".localized){
                 if let url = URL(string: item.url) {
                     UIApplication.shared.open(url)}

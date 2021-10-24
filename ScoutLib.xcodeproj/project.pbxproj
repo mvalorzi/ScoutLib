@@ -74,7 +74,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B27A0902725A7B400DFC579 /* Controller */ = {
+		4B27A0902725A7B400DFC579 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				4B27A09A2725ACE200DFC579 /* ConnectionStrings.swift */,
@@ -82,7 +82,7 @@
 				4B27A0A02725B41100DFC579 /* LibroController.swift */,
 				4BF21D642725BB4500D09110 /* TemaController.swift */,
 			);
-			path = Controller;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		4B27A0932725A85200DFC579 /* Views */ = {
@@ -121,7 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				4BA7F103270410C100388E8F /* Models */,
-				4B27A0902725A7B400DFC579 /* Controller */,
+				4B27A0902725A7B400DFC579 /* Controllers */,
 				4B27A0932725A85200DFC579 /* Views */,
 				4BA7F100270410C100388E8F /* ImageLoader */,
 				4BCA3A962725A6AF002AD01D /* Localizable */,

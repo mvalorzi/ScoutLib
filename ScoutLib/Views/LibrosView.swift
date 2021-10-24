@@ -32,7 +32,11 @@ struct LibrosView: View {
                             .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                         Text(item.Contenido)
                             .font(.subheadline)
-                       
+                        HStack{
+                            Text("_LANGUAGE".localized + item.Idioma)
+                                              if(item.Idioma ==  "es") { Image("es4") }
+                                              else if(item.Idioma ==  "en") { Image("en4") }
+                          }
                         NavigationLink(destination: PresentationView( item: item)){
                         }
                     }
