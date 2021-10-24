@@ -9,8 +9,7 @@ import SwiftUI
 
 struct LibrosView: View {
     @State var urlString: String;
-    @State private var data = [Libro]()
-    var mensaje: Mensajes;
+    @State private var data : [Libro] = [Libro]()
     
     private func leadingPadding(_ geometry: GeometryProxy) -> CGFloat {
         if UIDevice.current.userInterfaceIdiom == .pad {
@@ -21,6 +20,7 @@ struct LibrosView: View {
     }
     
     var body: some View {
+        
         NavigationView{List(data, id: \.id) { item in
                 HStack{
                     ImageAsync(item.image)
@@ -33,18 +33,18 @@ struct LibrosView: View {
                         Text(item.Contenido)
                             .font(.subheadline)
                         HStack{
-                            Text(mensaje.get(Frase.LANGUAGE) + item.Idioma)
+                            Text("_LANGUAGE".localized + item.Idioma)
                         if(item.Idioma ==  "es") { Image("es4") }
                         else if(item.Idioma ==  "en") { Image("en4") }
                         }
-                        NavigationLink(destination: PresentationView(mensaje: mensaje, item: item)){
+                        NavigationLink(destination: PresentationView( item: item)){
                         }
                     }
                     Spacer()
                 }
         }
       
-        .onAppear(perform: loadData)}
+        .onAppear(perform: loadBooksController)}
         .navigationViewStyle(StackNavigationViewStyle())
     }
     
@@ -52,24 +52,19 @@ struct LibrosView: View {
 
 extension LibrosView
 {
-    func loadData() {
-        
+    func loadBooksController() {
         guard let url = URL(string: urlString) else {
             return
         }
-        
         let request = URLRequest(url: url)
         URLSession.shared.dataTask(with: request) { data, response, error in
-            
             if let data = data {
                 if let response_obj = try? JSONDecoder().decode([Libro].self, from: data) {
-                    
                     DispatchQueue.main.async {
                         self.data = response_obj
                     }
                 }
             }
-            
         }.resume()
     }
 }

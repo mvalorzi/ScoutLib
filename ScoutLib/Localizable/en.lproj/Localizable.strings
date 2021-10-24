@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  ScoutLib
+
+  Created by Martín Valorzi on 23/10/2021.
+  English
+*/
+
+"_CODE" = "en";
+"_FIND" = "Search";
+"_FIND_TEXT" = "Text to Find (At least 3 letters)";
+"_BOOKS" = "Books";
+"_MENU" = "Menu";
+"_LANGUAGE" = "Language: ";
+"_LANGUAGE_NAME" = "English";
+"_THEMES" = "Topics";
+"_ABOUT" = "About";
+"_ABOUT_DATE" = "September 2021";
+"_ABOUT_AUTHOR" = "Author: Martin Valorzi";
+"_ABOUT_VERSION" = "Version 1.0";
+"_ABOUT_DESCRIPTION" = "";
+"_HELP" = "Help";
+"_HELP_TITLE" = "SCOUTLIB Help.";
+"_HELP_P1" = "Books: ";
+"_HELP_P2" = "This option displays the topics in the library.";
+"_HELP_P3" = "By pressing a topic we will obtain the list of books of that chosen topic.";
+"_HELP_P4" = "By clicking on the book, it will open in the external viewer.";
+"_HELP_P5" = "Search: ";
+"_HELP_P6" = "Returns a list of books that match the search text.";
+"_HELP_IMAGE" = "help_en";
+"_HELP_VIDEO" = "https://aspx.com.ar/drive/CompuLibEN.mov";
+"_VIEW" = "View";

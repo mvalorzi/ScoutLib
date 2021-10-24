@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  ScoutLib
+
+  Created by Martín Valorzi on 23/10/2021.
+  Spanish
+*/
+
+"_CODE" = "es";
+"_FIND" = "Buscar";
+"_FIND_TEXT" = "Texto a Buscar (Al menos 3 letras)";
+"_BOOKS" = "Libros";
+"_MENU" = "Menu";
+"_LANGUAGE" = "Idioma:";
+"_LANGUAGE_NAME" = "Español";
+"_THEMES" = "Temas";
+"_ABOUT" = "Acerca De ...";
+"_ABOUT_DATE" = "Setiembre 2021";
+"_ABOUT_AUTHOR" = "Autor: Martín Valorzi";
+"_ABOUT_VERSION" = "Versión 1.0";
+"_ABOUT_DESCRIPTION" = "Biblioteca de Lectura de Libros Scouts.";
+"_HELP" = "Ayuda";
+"_HELP_TITLE" = "Ayuda de SCOUTLIB";
+"_HELP_P1" = "Libros:";
+"_HELP_P2" = "Esta opción muestra los temas de la biblioteca.";
+"_HELP_P3" = "Pulsando un tema obtendremos la lista de libros de ese tema elegido.";
+"_HELP_P4" = "Pulsando el libro, este se abrirá en el visor externo.";
+"_HELP_P5" = "Buscar :  ";
+"_HELP_P6" = "Devuelve un listado con los libros que coinciden con el texto de búsqueda";
+"_HELP_IMAGE" = "help_es";
+"_HELP_VIDEO" = "https://aspx.com.ar/drive/CompuLibEN.mov";
+"_VIEW" = "Abrir Libro";

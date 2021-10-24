@@ -9,10 +9,9 @@ import SwiftUI
 struct TemasView: View {
     
     
-    @State private var data = [Tema]()
+    @State private var data : [Tema] = [Tema]()
     @State public var urlString: String ; //Lista de Temas
     @State public var urlLibros: String ; //Lista de Libros
-    @State  var mensaje: Mensajes;
     let deviceIdiom = UIScreen.main.traitCollection.userInterfaceIdiom
     
     var body: some View {
@@ -21,7 +20,7 @@ struct TemasView: View {
             NavigationView{
               
             List(data, id: \.id) { item in
-                NavigationLink(destination: LibrosView(urlString: urlLibros + item.id + "&idioma=" + mensaje.get(Frase.CODE) , mensaje: mensaje))
+                NavigationLink(destination: LibrosView(urlString: urlLibros + item.id + "&idioma=" + "_CODE".localized))
             {
             HStack{
                     ImageAsync(item.image)
@@ -43,15 +42,15 @@ struct TemasView: View {
               maxHeight: .infinity,
               alignment: .topLeading
             )
-                .navigationBarTitle(mensaje.get(Frase.THEMES))
+                .navigationBarTitle("_THEMES".localized)
            .background(Color.blue)
-        }.onAppear(perform: loadData)
+        }.onAppear(perform: loadThemesController)
             }}               }}
 
 extension TemasView
 {
-    func loadData() {
-        guard let url = URL(string: urlString + mensaje.get(Frase.CODE)) else {return}
+    func loadThemesController() {
+        guard let url = URL(string: urlString + "_CODE".localized) else {return}
         let request = URLRequest(url: url)
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let data = data {

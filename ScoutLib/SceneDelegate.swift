@@ -27,7 +27,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         if let windowScene = scene as? UIWindowScene {
                     let window = UIWindow(windowScene: windowScene)
             if(deviceIdiom == .pad){
-                          let contentView = IpadView(mensaje: Mensajes())
+                          let contentView = IpadView()
                           window.rootViewController = UIHostingController(rootView: contentView)
                       }else{
                           let contentView = MenuView()

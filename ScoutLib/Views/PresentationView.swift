@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct PresentationView: View {
-    var mensaje: Mensajes;
     var item: Libro;
     
     var body: some View {
@@ -26,7 +25,7 @@ struct PresentationView: View {
                 ImageAsync(item.Foto)
                     .padding(10)
             }
-            Button(mensaje.get(Frase.VIEW)){
+            Button("_VIEW".localized){
                 if let url = URL(string: item.url) {
                     UIApplication.shared.open(url)}
             }

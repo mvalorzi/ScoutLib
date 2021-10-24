@@ -9,18 +9,17 @@ import SwiftUI
 
 struct AboutView: View {
     
-    var mensaje: Mensajes;
     var body: some View {
      
         VStack{
             Text("SCOUTLIB")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-            Text(mensaje.get(Frase.ABOUT_DESCRIPTION))
+            Text("_ABOUT_DESCRIPTION".localized)
                 .font(.subheadline)
-            Text(mensaje.get(Frase.ABOUT_VERSION))
-            Text(mensaje.get(Frase.ABOUT_DATE))
-            Text(mensaje.get(Frase.ABOUT_AUTHOR))
+            Text("_ABOUT_VERSION".localized)
+            Text("_ABOUT_DATE".localized)
+            Text("_ABOUT_AUTHOR".localized)
         Text("Web: programas.aspx.com.ar")
             Image("compulib")
       }
@@ -29,6 +28,8 @@ struct AboutView: View {
 
 struct AboutView_Previews: PreviewProvider {
     static var previews: some View {
-        AboutView(mensaje: Mensajes(idioma: Idioma.EN))
+        AboutView()
     }
 }
+
+
